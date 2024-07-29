@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>Register student</h1>
+
+    <section>
+        <article>
+            <form id="myForm" >
+                <div>
+                    <label for="case1">First name:</label></br>
+                    <input name="fname" type="text" id="case1"></br>
+                </div>
+                <div>
+                    <label for="case2">Last name:</label></br>
+                    <input name="lname" type="text" id="case2"></br>
+                </div>
+                <div>
+                    <label for="case3">Email:</label></br>
+                    <input type="email" id="case3"></br>
+                </div>
+                <div>
+                    <label for="case4">Phone:</label></br>
+                    <input type="tel" id="case4"></br>
+                </div>
+                <div>
+                    <label for="case5">Gender:</label></br>
+                    <select id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Femal">Female</option>
+                    </select></br>
+                </div>
+                <div>
+                    <button type="submit">Inscription</button>
+                </div>
+            </form>
+        </article>
+
+        <article id="etudiant">
+            <p id="liste">List empty !</p>
+        </article>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <article>
+        <form id="myForm" >
+            <div>
+                <label for="fnamemodif">First name:</label></br>
+                <input name="fnamemodif" type="text" id="fnamemodif"></br>
+            </div>
+            <div>
+                <label for="lnamemodif">Last name:</label></br>
+                <input name="" type="text" id="lnamemodif"></br>
+            </div>
+            <div>
+                <label for="mailmodif">Email:</label></br>
+                <input type="email" id="mailmodif"></br>
+            </div>
+            <div>
+                <label for="phonemodif">Phone:</label></br>
+                <input type="tel" id="phonemodif"></br>
+            </div>
+            <div>
+                <label for="gendermodif">Gender:</label></br>
+                <select id="gendermodif">
+                    <option value="Male">Male</option>
+                    <option value="Femal">Female</option>
+                </select></br>
+            </div>
+            <div>
+                <button id="changer" type="submit">Modifier</button>
+                <button id="supprimer" type="submit">Supprimer</button>
+            </div>
+        </form>
+    </article>
+
+  </div>
+
+</div> 
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
